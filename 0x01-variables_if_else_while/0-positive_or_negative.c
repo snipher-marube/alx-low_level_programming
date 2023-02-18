@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes */
-
 /* betty style doc for function main goes there */
 /**
  * main - Entry pont
@@ -32,5 +31,4 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
-}
+	return (0);}
