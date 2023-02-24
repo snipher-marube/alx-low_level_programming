@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -7,19 +6,14 @@
  */
 int main(void)
 {
-	long num = 612852475143;
-	int factor = 2;
+	long a;
+	long b = 612852475143;
 
-	while (num > 1)
+	for (a = 2; a < b; a++)
 	{
-		if (num % factor == 0)
-		{
-			num /= factor;
-			continue;
-		}
-		factor++;
+		if (b % a == 0)
+			b = b / a;
 	}
-	printf("%li\n", factor);
-
+	printf("%li\n", b);
 	return (0);
 }
